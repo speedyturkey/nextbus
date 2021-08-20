@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+aws cloudformation deploy \
+  --stack-name sam-app \
+  --capabilities CAPABILITY_IAM CAPABILITY_AUTO_EXPAND \
+  --template-file package.yaml \
+  --no-fail-on-empty-changeset

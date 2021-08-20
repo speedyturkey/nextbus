@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+S3_BUCKET=aws-sam-cli-managed-default-samclisourcebucket-12niyarvo99jh
+sam package --s3-bucket ${S3_BUCKET} --output-template-file package.yaml

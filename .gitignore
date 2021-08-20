@@ -1,0 +1,36 @@
+# Distribution / packaging
+.Python
+*.pyc
+env/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+venv
+*.egg-info/
+.installed.cfg
+*.egg
+node_modules
+psycopg2
+# Serverless directories
+.serverless
+.DS_Store
+package.yaml
+# IDE
+.vscode
+
+.env
+*.swp
+tmp/
+__pycache__
+env/
+.aws-sam/
+pdftotext.zip
+src/**/lib/
+src/**/venv/
+
+event.py
